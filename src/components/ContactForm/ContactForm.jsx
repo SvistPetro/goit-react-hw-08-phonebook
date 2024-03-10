@@ -32,7 +32,6 @@ const ContactForm = () => {
         const formName = name.trim().toString();
         const formNumber = number.trim().toString();
         const finalFormData = { name: formName, number: formNumber};
-        console.log(finalFormData);
 
         const duplicate = contacts.some(contact => contact.name.toLowerCase() === formName.toLowerCase());
         if(duplicate) {
