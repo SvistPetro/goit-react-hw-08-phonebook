@@ -27,7 +27,7 @@ const ContactList = () => {
                         return (
                             <li key={contact.id} className={css.list}>
                                 <span className={css.name}>{contact.name}:</span>
-                                <span className={css.phone}>{contact.phone}</span>
+                                <span className={css.phone}>{contact.number}</span>
                                 <button className={css.button} onClick={() => dispatch(deleteContact(contact.id))}>Delete</button>
                             </li>
                         );

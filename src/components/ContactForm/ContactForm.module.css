@@ -29,3 +29,8 @@
     border: 1px solid rgb(187, 184, 184);
     border-radius: 3px;
 }
+
+.error {
+    font-size: 14px;
+    color: orangered;
+}
